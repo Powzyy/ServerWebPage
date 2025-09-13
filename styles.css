@@ -1,0 +1,56 @@
+/* Basic CSS Template */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    color: #000000;
+}
+
+header {
+    background-color: #222;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #cc6d00;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #005592;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background: #444;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(228, 228, 228, 0.05);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #222;
+    color: #ffffff;
+    text-align: left;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
