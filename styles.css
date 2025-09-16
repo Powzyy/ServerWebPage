@@ -1,0 +1,82 @@
+/* Basic CSS Template */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    color: #ffffff;
+}
+
+header {
+    background-color: #222;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.btn:hover {
+    background-color: #a8a8a8;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+
+footer {
+    background-color: #222;
+    color: #ffffff;
+    text-align: left;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a:hover {
+    color: #6ca7e6;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1em; 
+    justify-content: left; 
+    width: 450px;
+}
+.circle-btn-section {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+    background: #363636;
+}
+
+.circle-btn-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.circle-btn-label {
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: #fff;
+    background: #363636;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+     &:hover {
+        color: #6ca7e6;
+    }   
+}
+
+a {
+    text-decoration: none;
+}
