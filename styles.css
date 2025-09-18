@@ -43,7 +43,7 @@ a:hover {
     flex-wrap: wrap; 
     gap: 1em; 
     justify-content: left; 
-    width: 450px;
+    width: 800px;
 }
 .circle-btn-section {
     display: inline-block;
@@ -76,6 +76,10 @@ a:hover {
     }   
 }
 
+p{
+    font-weight: bold;
+    font-size: 24px;
+}
 a {
     text-decoration: none;
 }
