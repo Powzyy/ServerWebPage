@@ -62,6 +62,7 @@ a:hover {
     display: block;
     margin: auto;
     margin-top: 8px;
+    border-radius: 50%;
 }
 
 .circle-btn-label {
